@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <com.like.LikeButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:icon_type="star"
+       app:icon_size="32dp"
+       app:anim_scale_factor="1"
+       android:layout_gravity="center_horizontal"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/view">
+   </com.like.LikeButton>
+   <com.example.lpjxlove.mytest.CustomView.ImageLint
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       app:background_="@drawable/collection_normal"
+       android:layout_centerVertical="true"
+       android:layout_alignLeft="@+id/view"
+       android:layout_alignStart="@+id/view" />
+</RelativeLayout>
